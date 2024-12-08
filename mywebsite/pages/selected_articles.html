@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>心智探奇 - 精选文章</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/selected_articles.css"> <!-- 新增的样式表 -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="left-side">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="selected_articles.html">精选文章</a></li>
+                <li><a href="forum.html">论坛交流</a></li>
+            </ul>
+            <ul class="right-side">
+                <li><a href="login_register.html">用户注册/登录</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="filter-section">
+            <h2>高级筛选</h2>
+            <form id="filter-form">
+                <label for="tag-filter">标签:</label>
+                <select id="tag-filter" name="tags">
+                    <!-- 选项会根据实际内容填充 -->
+                </select>
+
+                <label for="date-filter">时间:</label>
+                <input type="date" id="date-filter" name="date">
+
+                <label for="likes-filter">点赞量:</label>
+                <input type="number" id="likes-filter" name="likes">
+
+                <button type="submit" class="btn">筛选</button>
+            </form>
+        </section>
+        <section id="articles-list">
+            <h2>精选文章列表</h2>
+            <!-- 文章列表会根据筛选条件动态生成 -->
+        </section>
+        <section id="column-section">
+            <h2>专栏</h2>
+            <!-- 专栏内容 -->
+        </section>
+    </main>
+    <script src="../assets/js/selected_articles.js"></script> <!-- 新增的脚本文件 -->
+</body>
+
+</html>

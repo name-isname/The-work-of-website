@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>心智探奇 - 用户注册</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/login_register.css"> <!-- 使用同一份样式表 -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="left-side">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="selected_articles.html">精选文章</a></li>
+                <li><a href="forum.html">论坛交流</a></li>
+            </ul>
+            <ul class="right-side">
+                <li><a href="login.html">登录</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="register-section">
+            <h2>用户注册</h2>
+            <form id="register-form">
+                <label for="username-register">用户名:</label>
+                <input type="text" id="username-register" name="username" required>
+
+                <label for="email-register">邮箱:</label>
+                <input type="email" id="email-register" name="email" required>
+
+                <label for="password-register">密码:</label>
+                <input type="password" id="password-register" name="password" required>
+
+                <label for="confirm-password-register">确认密码:</label>
+                <input type="password" id="confirm-password-register" name="confirm_password" required>
+
+                <button type="submit" class="btn">注册</button>
+                <p>已有账号？<a href="login.html">立即登录</a></p>
+            </form>
+        </section>
+    </main>
+    <script src="../assets/js/register.js"></script> <!-- 新增的脚本文件 -->
+</body>
+
+</html>

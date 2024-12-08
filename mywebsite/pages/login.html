@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>心智探奇 - 用户登录</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/login_register.css"> <!-- 新增的样式表 -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="left-side">
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="selected_articles.html">精选文章</a></li>
+                <li><a href="forum.html">论坛交流</a></li>
+            </ul>
+            <ul class="right-side">
+                <li><a href="register.html">注册</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login-section">
+            <h2>用户登录</h2>
+            <form id="login-form">
+                <label for="email-login">邮箱:</label>
+                <input type="email" id="email-login" name="email" required>
+
+                <label for="password-login">密码:</label>
+                <input type="password" id="password-login" name="password" required>
+
+                <button type="submit" class="btn">登录</button>
+                <p>还没有账号？<a href="register.html">立即注册</a></p>
+            </form>
+        </section>
+    </main>
+    <script src="../assets/js/login.js"></script> <!-- 新增的脚本文件 -->
+</body>
+
+</html>

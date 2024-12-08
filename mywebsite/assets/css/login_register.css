@@ -1,0 +1,45 @@
+/* 登录和注册部分 */
+#login-section,
+#register-section {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#login-section h2,
+#register-section h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#login-section form,
+#register-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-section label,
+#register-section label {
+    margin-bottom: 0.5rem;
+}
+
+#login-section input,
+#register-section input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#login-section .btn,
+#register-section .btn {
+    align-self: center;
+}
+
+#login-section p,
+#register-section p {
+    text-align: center;
+}

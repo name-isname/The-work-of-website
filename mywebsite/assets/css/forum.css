@@ -1,0 +1,68 @@
+/* 论坛部分 */
+#forum-section {
+    padding: 2rem;
+}
+
+#post-section,
+#posts-list {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#post-section h3,
+#posts-list h3 {
+    margin-bottom: 1rem;
+}
+
+#post-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#post-form input,
+#post-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#post-form .btn {
+    align-self: flex-end;
+}
+
+/* 帖子样式 */
+.post-item {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.post-item header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-item h4 {
+    margin: 0;
+}
+
+.post-item p {
+    margin-top: 0.5rem;
+}
+
+.post-item footer {
+    font-size: 0.875rem;
+    color: #666;
+}
