@@ -25,17 +25,48 @@
         <section id="register-section">
             <h2>用户注册</h2>
             <form id="register-form">
+                <label for="account-register">账号:</label>
+                <input type="text" id="account-register" name="account" placeholder="请输入您的账号" required>
+                <span class="error-message" id="account-error"></span>
+
                 <label for="username-register">用户名:</label>
-                <input type="text" id="username-register" name="username" required>
+                <input type="text" id="username-register" name="username" placeholder="请输入您的用户名" required>
+                <span class="error-message" id="username-error"></span>
 
                 <label for="email-register">邮箱:</label>
-                <input type="email" id="email-register" name="email" required>
+                <input type="email" id="email-register" name="email" placeholder="请输入有效的电子邮件地址" required>
+                <span class="error-message" id="email-error"></span>
 
                 <label for="password-register">密码:</label>
-                <input type="password" id="password-register" name="password" required>
+                <input type="password" id="password-register" name="password" placeholder="请输入至少8个字符的密码" required>
+                <span class="error-message" id="password-error"></span>
 
                 <label for="confirm-password-register">确认密码:</label>
-                <input type="password" id="confirm-password-register" name="confirm_password" required>
+                <input type="password" id="confirm-password-register" name="confirm_password" placeholder="请再次输入密码"
+                    required>
+                <span class="error-message" id="confirm-password-error"></span>
+
+                <label for="name-register">姓名:</label>
+                <input type="text" id="name-register" name="name" placeholder="请输入您的真实姓名" required>
+                <span class="error-message" id="name-error"></span>
+
+                <label for="gender-register">性别:</label>
+                <select id="gender-register" name="gender" required>
+                    <option value="" disabled selected>请选择</option>
+                    <option value="male">男</option>
+                    <option value="female">女</option>
+                    <option value="other">其他</option>
+                </select>
+                <span class="error-message" id="gender-error"></span>
+
+                <label for="dob-register">出生日期:</label>
+                <input type="date" id="dob-register" name="dob" required>
+                <span class="error-message" id="dob-error"></span>
+
+                <label for="phone-register">电话号码:</label>
+                <input type="tel" id="phone-register" name="phone" placeholder="格式: 123-456-7890"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <span class="error-message" id="phone-error"></span>
 
                 <button type="submit" class="btn">注册</button>
                 <p>已有账号？<a href="login.html">立即登录</a></p>
