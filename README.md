@@ -20,22 +20,3 @@
 # 论坛交流
 
 # 用户的注册与登录
-
-F:\网页设计\MYWEBSITE\MYWEBSITE
-│  .gitignore
-│  index.html
-│  README.md
-│
-├─assets
-│  ├─css
-│  ├─fonts
-│  ├─images
-│  └─js
-├─components
-├─config
-├─data
-├─docs
-├─pages
-├─scripts
-├─src
-└─tests
